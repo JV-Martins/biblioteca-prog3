@@ -87,7 +87,7 @@ export const FormComponent = {
     },
     methods: {
         cancelar() {
-            this.$router.push('/');
+            this.$router.push('/list');
         }
     }
 }

@@ -60,6 +60,11 @@ export const ListComponent = {
                     </tbody>
                 </table>
             </div>
+            <div class="mt-7">
+                <button @click="welcome" class="bg-red-500 w-40 py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
+                    Voltar à Listagem
+                </button>
+            </div>
         </div>
     </div>
 </div>`,
@@ -92,6 +97,11 @@ export const ListComponent = {
                     autor: 'Criador do React'
                 }
             ]
+        }
+    },
+    methods: {
+        welcome() {
+            this.$router.push('/');
         }
     }
 }
