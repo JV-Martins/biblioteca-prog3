@@ -62,7 +62,7 @@ export const ListComponent = {
             </div>
             <div class="mt-7">
                 <button @click="welcome" class="bg-red-500 w-40 py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105">
-                    Voltar à Listagem
+                    Página Inicial
                 </button>
             </div>
         </div>
